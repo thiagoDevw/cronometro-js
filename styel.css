@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,18 @@ body{
     justify-content: center;
     background: #070918;
     color: aliceblue;
+}
+
+#container {
+    border: solid 5px aliceblue;
+    border-radius: 20px;
+}
+
+.titulo{
+    margin-top: 20px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .cronometro, .botoes {
